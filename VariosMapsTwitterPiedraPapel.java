@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Clase2 {
+public class VariosMapsTwitterPiedraPapel {
     public static void main(String[] args){
 
         Scanner entrada = new Scanner(System.in);
@@ -29,23 +29,23 @@ public class Clase2 {
 
         //Piedra papel tijera
 
-        String palabras[] = new String[3];
+        ArrayList palabras = new ArrayList();
 
-        palabras[0] = ("Tijera");
-        palabras[1] = ("Papel");
-        palabras[2] = ("Piedra");
+        palabras.add("Tijera");
+        palabras.add("Papel");
+        palabras.add("Piedra");
 
         Random num = new Random();
 
         int generado = num.nextInt(2);
 
-        System.out.println(generado);
+        System.out.println("La computadora ha elegido: "+palabras.get(generado));
 
-        System.out.println("Elija\n 1: Tijera\n 2:Papel\n 3:Piedra");
+        System.out.println("Elija UD ahora\n 1:Tijera\n 2:Papel\n 3:Piedra");
 
         int eleccion = entrada.nextInt();
 
-        if(generado==eleccion) System.out.println("Empate");
+        if(generado == 0 && eleccion == 1) System.out.println("Empate");
         else if (generado == 0 && eleccion == 2) System.out.println("Gana Tijera");
         else if (generado == 0 && eleccion == 3) System.out.println("Gana Piedra");
 
