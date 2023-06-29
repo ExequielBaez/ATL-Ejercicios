@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Clase2.iml" filepath="$PROJECT_DIR$/.idea/Clase2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EulerEj1Primos/EulerEj1Primos.iml" filepath="$PROJECT_DIR$/EulerEj1Primos/EulerEj1Primos.iml" />
       <module fileurl="file://$PROJECT_DIR$/MiCodigoMorse/MiCodigoMorse.iml" filepath="$PROJECT_DIR$/MiCodigoMorse/MiCodigoMorse.iml" />
     </modules>
   </component>
